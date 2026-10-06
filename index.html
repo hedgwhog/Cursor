@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Customization</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="cursor" class="circle"></div>
+    <button id="menuToggle">☰ Settings</button>
+
+    <div class="layout">
+        <div class="newspaper">
+
+            <h1 class="hoverable">Cursor Customization</h1>
+            <div class="line hoverable"></div>
+
+            <div class="top-section">
+                <div class="intro">
+                    <h3 class="hoverable">Introduction</h3>
+
+                    <p class="hoverable">
+                        Cursors are a small but
+                        important part of user
+                        experience. Their design,
+                        usage and behavior
+                        help users understand
+                        how to interact properly with a
+                        website.
+                    </p>
+                </div>
+                <div class="image hoverable">
+                     <img src="asssets/cursors.png" alt="time">
+                </div>
+            </div>
+
+            <p class="paragraph hoverable">
+                This project explores how cursor customization and
+                micro-interactions influence user experience. I've added
+                a settings system, in which you can customize your own experience.
+                By experimenting with these elements, you can design your own newspaper
+                interaction with the following themes: "Cursor, Colors, Fonts, Hover and Effects"
+            </p>
+
+            <div class="bottom-section">
+                <div class="grid">
+                    <div class="square hoverable">
+                        <img src="asssets/time.png" alt="time">
+                    </div>
+                    <div class="square hoverable">
+                        <img src="asssets/hand.png" alt="hand">
+                    </div>
+                    <div class="square hoverable spin">
+                        <img src="asssets/wheel.png" alt="wheel">
+                    </div>
+
+                    <div class="square2 hoverable" style="left: 269px;">
+                        <img src="asssets/paint.png" alt="paint">
+                    </div>
+                    <div class="square2 hoverable" style="left: 269px; top: 25px;">
+                        <img src="asssets/cursor.png" alt="cursor">
+                    </div>
+
+                    <div class="animation hoverable">
+                        <img src="asssets/cursor.gif" alt="cursor">
+                    </div>
+                </div>
+
+                <div class="text-column hoverable">
+                <h3 class="hoverable">Interactive Elements</h3>
+                    • Cursor designing<br>
+                    • Cursor motions<br>
+                    • Custom colors<br>
+                    • Newspaper coloring<br>
+                    • Coloring modes<br>
+                    • Typography<br>
+                    • Hovering<br>
+                    • Cursor trails<br>
+                    • Glowing cursor<br>
+                    • Cursor shadow<br>
+                    • Ripple effects<br>
+                    • Easy reset button
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <aside class="settings" id="settingsPanel">
+            <div class="settings-nav">
+                <div class="nav-line"></div>
+                
+                <button class="nav-item active" data-theme="cursor">Cursor</button>
+                <button class="nav-item" data-theme="colors">Colors</button>
+                <button class="nav-item" data-theme="fonts">Fonts</button>
+                <button class="nav-item" data-theme="hover">Hover</button>
+                <button class="nav-item" data-theme="effects">Effects</button>
+            </div>
+
+            <div id="settingsContent"></div>
+        </aside>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
